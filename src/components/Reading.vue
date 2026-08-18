@@ -11,7 +11,7 @@ const levels = ['All', 'A1', 'A2', 'B1', 'B2', 'C1']
 
 const getBooks = async () => {
   try {
-    const response = await fetch('http://127.0.0.1:8000/api/books/')
+    const response = await fetch('https://start-production-c765.up.railway.app/api/books/', { credentials: 'include' })
 
     if (!response.ok) throw new Error('API ishlamayapti')
 

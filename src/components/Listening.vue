@@ -14,7 +14,7 @@ const progress = ref(0)
 
 const getListening = async () => {
   try {
-    const res = await fetch('http://127.0.0.1:8000/Listening/')
+    const res = await fetch('https://start-production-c765.up.railway.app/Listening/', { credentials: 'include' })
     Listening.value = await res.json()
   } catch (err) {
     console.log(err)

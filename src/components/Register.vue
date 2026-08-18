@@ -215,12 +215,13 @@ const registerUser = async () => {
   try {
 
     const response = await axios.post(
-      "http://127.0.0.1:8000/Register/",
+      "https://start-production-c765.up.railway.app/Register/",
       {
         username: form.value.username,
         phone: form.value.phone,
         password: form.value.password,
-      }
+      },
+      { withCredentials: true }
     )
 
     console.log(response.data)

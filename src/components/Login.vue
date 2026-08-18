@@ -181,9 +181,10 @@ const login = async () => {
   try {
 
     const res = await fetch(
-      "http://127.0.0.1:8000/login/",
+      "https://start-production-c765.up.railway.app/login/",
       {
         method: "POST",
+        credentials: "include",
 
         headers: {
           "Content-Type": "application/json"

@@ -9,7 +9,7 @@ const categories = ['All', 'A1', 'A2', 'B1', 'B2']
 
 const getMovie = async () => {
   try {
-    const res = await fetch('http://127.0.0.1:8000/movie/')
+    const res = await fetch('https://start-production-c765.up.railway.app/movie/', { credentials: 'include' })
     const data = await res.json()
 
     movies.value = data

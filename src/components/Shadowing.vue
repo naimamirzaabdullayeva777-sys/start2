@@ -6,7 +6,7 @@ const videoRefs = ref([])
 
 const getShadow = async () => {
   try {
-    const res = await fetch('http://127.0.0.1:8000/Shadow/')
+    const res = await fetch('https://start-production-c765.up.railway.app/Shadow/', { credentials: 'include' })
     Shadow.value = await res.json()
   } catch (e) {
     console.log(e)

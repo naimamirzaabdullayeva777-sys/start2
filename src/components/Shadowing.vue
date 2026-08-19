@@ -1,7 +1,5 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import BottomNav from '../components/BottomNav.vue'
-
 const Shadow = ref([])
 const videoRefs = ref([])
 

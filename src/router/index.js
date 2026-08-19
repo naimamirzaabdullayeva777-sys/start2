@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Lear from '@/components/Lear.vue'
 import English from '@/components/English.vue'
-import turkish from '@/components/Turkish.vue'
 import reading from '@/components/Reading.vue'
 import shadowing from '@/components/Shadowing.vue'
 import Register from '@/components/Register.vue'
@@ -37,12 +36,6 @@ const router = createRouter({
       path: '/english',
       name: 'english',
       component: English
-    },
-
-    {
-      path: '/turkish',
-      name: 'turkish',
-      component: turkish
     },
     {
       path: '/reading',

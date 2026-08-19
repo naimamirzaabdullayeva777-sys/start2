@@ -49,10 +49,12 @@
 
   </div>
 </div>
+<BottomNav />
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import BottomNav from '../components/BottomNav.vue'
 
 const page = ref(1)
 

@@ -9,7 +9,6 @@
 <template>
     <Navbars   />
   <div class="min-h-screen w-full bg-[#f7f8fc]">
-
     <!-- PAGE -->
     <main
       class="mx-auto min-h-screen  w-full max-w-[430px] px-4 pb-[100px] pt-[70px]"
@@ -443,12 +442,14 @@
     </main>
 
   </div>
+  <BottomNav />
 </template>
 
 
 <script setup>
 
 import Navbars from '../components/Navigation.vue'
+import BottomNav from '../components/BottomNav.vue'
 import { ref, computed, onMounted } from 'vue'
 
 

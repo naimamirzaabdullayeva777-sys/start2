@@ -196,11 +196,13 @@
 
     </div>
   </div>
+  <BottomNav />
 </template>
 
 
 <script setup>
 import Navbars from '../components/Navigation.vue'
+import BottomNav from '../components/BottomNav.vue'
 
 import { useRouter } from 'vue-router'
 

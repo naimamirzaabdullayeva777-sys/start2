@@ -94,7 +94,7 @@ const playAudio = (item) => {
 onMounted(getListening)
 
 import Navbars from '../components/Navigation.vue'
-
+import BottomNav from '../components/BottomNav.vue'
   
 </script>
 
@@ -260,6 +260,7 @@ import Navbars from '../components/Navigation.vue'
 
   </div>
 </div>
+<BottomNav />
 </template>
 
 <style scoped>

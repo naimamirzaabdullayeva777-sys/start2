@@ -62,10 +62,12 @@
 
   </div>
 </div>
+<BottomNav />
 </template>
 
 <script setup>
 import { ref, computed } from 'vue'
+import BottomNav from '../components/BottomNav.vue'
 
 const recording = ref(false)
 const seconds = ref(0)

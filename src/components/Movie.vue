@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
+import BottomNav from '../components/BottomNav.vue'
 
 const movies = ref([])
 const search = ref('')
@@ -250,4 +251,5 @@ import Navbars from '../components/Navigation.vue'
     </section>
 
   </main>
+  <BottomNav />
 </template>

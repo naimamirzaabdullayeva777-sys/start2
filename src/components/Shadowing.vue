@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue'
+import BottomNav from '../components/BottomNav.vue'
 
 const Shadow = ref([])
 const videoRefs = ref([])
@@ -31,6 +32,7 @@ const openFull = (i) => {
 onMounted(getShadow)
 
 import Navbars from '../components/Navigation.vue'
+import BottomNav from './BottomNav.vue'
 
 </script>
 
@@ -125,4 +127,5 @@ import Navbars from '../components/Navigation.vue'
     </div>
 
   </div>
+  <BottomNav />
 </template>

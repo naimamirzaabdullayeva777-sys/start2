@@ -100,7 +100,7 @@ import BottomNav from '../components/BottomNav.vue'
 
 <template>
     <Navbars   />
-<div class="max-w-[450px] mt-[50px] mx-auto min-h-screen bg-[#F8F5FD] pb-24">
+<div class="max-w-[450px] mb-[30px] mt-[50px] mx-auto min-h-screen bg-[#F8F5FD] pb-24">
 
   <!-- HEADER -->
   <div class="px-4 pt-8">
@@ -263,8 +263,3 @@ import BottomNav from '../components/BottomNav.vue'
 <BottomNav />
 </template>
 
-<style scoped>
-.no-scrollbar::-webkit-scrollbar{
-  display:none;
-}
-</style>
